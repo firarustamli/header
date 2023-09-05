@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #FBFBFB;
+  max-width: 1440px;
+  width: 1440px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 64px;
+  align-items: center;
+}
+
+.dark-mode {
+  background: #151D20;
+  margin-top: 100px;
+}
+
+.logo-container {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.other, .center {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  gap: 64px;
+  cursor: pointer;
+}
+
+.search-icon, .other > div {
+  width: 40px;
+  height: 40px;
+  background-color: #E2E6E9;
+  border-radius: 50%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.notification, .other-notification {
+  display: flex;
+  position: absolute;
+  background-color: #EB1919;
+  top: 5px;
+  right: -10%;
+  color: white;
+  width: 36px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  transform: translate(50%, -50%);
+}
+
+.other-notification {
+  top: 9px;
+  right: -2%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.other > div, .center > div {
+  position: relative;
+}
+
+.home {
+  border-bottom: 2px solid #2F80ED;
+}
+
+/*# sourceMappingURL=main.css.map */
